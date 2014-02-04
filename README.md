@@ -51,6 +51,12 @@ Browse the sample on GitHub from [here](https://github.com/auth0/meteor-accounts
 ### Credits
 Closely based on the [accounts-github package](https://github.com/meteor/meteor/tree/master/packages/accounts-github).
 
+### About Auth0
+
+[Auth0](https://www.auth0.com) provides identity infrastructure: **Single Sign On**, **User Management**, **Social**, **Enterprise** login, your own **database of users**, extensibility through **JavaScript rules** and **reporting and analytics**.
+
+![Meteor + Auth0](https://docs.google.com/drawings/d/1I7ECtml8o4NKKwD7_RVqaW0vpAtr6b8S-JiQdbbspm4/pub?w=1219&amp;h=558)
+
 ### License
 The MIT License (MIT)
 
