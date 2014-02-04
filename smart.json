@@ -1,0 +1,8 @@
+{
+	"name": "accounts-auth0",
+  "description": "Auth0 login service for use with Meteor Auth",
+  "homepage": "https://github.com/auth0/meteor-accounts-auth0",
+  "author": "Auth0 <support@auth0.com>",
+  "version": "0.0.1",
+  "git": "https://github.com/auth0/meteor-accounts-auth0.git"
+}
