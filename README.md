@@ -3,6 +3,25 @@ meteor-accounts-auth0
 
 Auth0 login service for use with Meteor Auth.
 
+### Setup
+
+1. Create an `OpenID Connect (OAuth2) Web` application from [Auth0 Dashboard](https://app.auth0.com/#/applications/create).
+2. Set App Callbacks URLs to: `{YOUR_APP_BASE_URL}/_oauth/auth0`.
+3. Go to your application and configure the login service from server-side code:
+
+~~~js
+Accounts.loginServiceConfiguration.remove({
+  service: 'auth0'
+});
+
+Accounts.loginServiceConfiguration.insert({
+  service:      'auth0',
+  domain:       '{YOUR_AUTH0_DOMAIN}',
+  clientId:     '{YOUR_AUTH0_CLIENT_ID}',
+  clientSecret: '{YOUR_AUTH0_CLIENT_SECRET}'
+});
+~~~
+
 ### Usage
 
 1. `meteor add accounts-auth0`
