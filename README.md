@@ -30,8 +30,8 @@ Accounts.loginServiceConfiguration.insert({
 ~~~js
 Meteor.loginWithAuth0();
 
-// or specifying additional parameters like connection:
-Meteor.loginWithAuth0({ connection: 'google-oauth2' });
+// or specifying additional parameters like connection or popupOptions:
+Meteor.loginWithAuth0({ connection: 'google-oauth2', popupOptions: { width: 320, height: 350 } });
 ~~~
 
 > You can find useful info about the Meteor Accounts API from [here](http://docs.meteor.com/#accounts_api).
