@@ -34,6 +34,8 @@ Meteor.loginWithAuth0();
 Meteor.loginWithAuth0({ connection: 'google-oauth2' });
 ~~~
 
+> You can find useful info about the Meteor Accounts API from [here](http://docs.meteor.com/#accounts_api).
+
 ### Package Dependencies
 
 * accounts-base
