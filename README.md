@@ -6,7 +6,7 @@ Auth0 login service for use with Meteor Auth.
 ### Usage
 
 1. `meteor add accounts-auth0`
-2. Use [accounts-ui](http://docs.meteor.com/#accountsui) to show login buttons, or directly call:
+2. Use [accounts-ui](http://docs.meteor.com/#accountsui) to handle login experience, or directly call:
 
 ~~~js
 Meteor.loginWithAuth0();
