@@ -3,12 +3,6 @@ meteor-accounts-auth0
 
 Auth0 login service for use with Meteor Auth.
 
-### Package Dependencies
-
-* accounts-base
-* accounts-oauth
-* auth0
-
 ### Usage
 
 1. `meteor add accounts-auth0`
@@ -20,6 +14,12 @@ Meteor.loginWithAuth0();
 // or specifying additional parameters like connection:
 Meteor.loginWithAuth0({ connection: 'google-oauth2' });
 ~~~
+
+### Package Dependencies
+
+* accounts-base
+* accounts-oauth
+* auth0
 
 ### Credits
 Closely based on the [accounts-github package](https://github.com/meteor/meteor/tree/master/packages/accounts-github).
