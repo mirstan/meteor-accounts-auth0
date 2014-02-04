@@ -1,7 +1,7 @@
 meteor-accounts-auth0
 =====================
 
-Auth0 login service for use with Meteor Auth
+Auth0 login service for use with Meteor Auth.
 
 ### Package Dependencies
 
@@ -12,11 +12,17 @@ Auth0 login service for use with Meteor Auth
 ### Usage
 
 1. `meteor add accounts-auth0`
-2. Read the 'Integrating with Login Services' section of [Getting Started with Auth](https://github.com/meteor/meteor/wiki/Getting-started-with-Auth) and make sure you set up your config and secret correctly.
-3. Call `Meteor.loginWithAuth0();`
+2. Use [accounts-ui](http://docs.meteor.com/#accountsui) to show login buttons, or directly call:
+
+~~~js
+Meteor.loginWithAuth0();
+
+// or specifying additional parameters like connection:
+Meteor.loginWithAuth0({ connection: 'google-oauth2' });
+~~~
 
 ### Credits
-Closely based on the [accounts-foursquare package](https://atmosphere.meteor.com/package/accounts-foursquare).
+Closely based on the [accounts-github package](https://github.com/meteor/meteor/tree/master/packages/accounts-github).
 
 ### License
 The MIT License (MIT)
