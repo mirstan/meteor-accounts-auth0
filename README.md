@@ -39,7 +39,7 @@ Meteor.loginWithAuth0({ connection: 'google-oauth2', popupOptions: { width: 320,
 ### Sample
 Browse the sample on GitHub from [here](https://github.com/auth0/meteor-accounts-auth0-sample/).
 
-![](http://blog.auth0.com.s3.amazonaws.com/meteor-accounts-auth0-3.gif)
+![](http://blog.auth0.com.s3.amazonaws.com/meteor-accounts-auth0.gif)
 
 ### Package Dependencies
 
