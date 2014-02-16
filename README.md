@@ -24,7 +24,7 @@ Accounts.loginServiceConfiguration.insert({
 
 ### Usage
 
-1. `meteor add accounts-auth0`
+1. `mrt add accounts-auth0`
 2. Use [accounts-ui](http://docs.meteor.com/#accountsui) to handle login experience, or directly call:
 
 ~~~js
