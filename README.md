@@ -10,11 +10,8 @@ Auth0 login service for use with Meteor Auth.
 3. Go to your application and configure the login service from server-side code:
 
 ~~~js
-Accounts.loginServiceConfiguration.remove({
-  service: 'auth0'
-});
-
-Accounts.loginServiceConfiguration.insert({
+ServiceConfiguration.configurations.remove({ service: 'auth0' });
+ServiceConfiguration.configurations.insert({
   service:      'auth0',
   domain:       '{YOUR_AUTH0_DOMAIN}',
   clientId:     '{YOUR_AUTH0_CLIENT_ID}',
