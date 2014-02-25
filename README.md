@@ -19,6 +19,10 @@ ServiceConfiguration.configurations.insert({
 });
 ~~~
 
+ServiceConfiguration.configurations is exported by the service-configuration package:
+
+    meteor add service-configuration
+
 ### Usage
 
 1. `mrt add accounts-auth0`
