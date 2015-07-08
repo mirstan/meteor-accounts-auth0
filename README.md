@@ -38,8 +38,7 @@ Meteor.loginWithAuth0({ connection: 'google-oauth2', popupOptions: { width: 320,
 > You can find useful info about the Meteor Accounts API from [here](http://docs.meteor.com/#accounts_api).
 
 ### Sample
-* Browse the sample on GitHub from [here](https://github.com/auth0/meteor-accounts-auth0-sample/)
-* Live version available @ http://parties.auth0.meteor.com/
+Browse the sample on GitHub from [here](https://github.com/auth0/meteor-accounts-auth0-sample/)
 
 ![](http://blog.auth0.com.s3.amazonaws.com/meteor-accounts-auth0-0.gif)
 
